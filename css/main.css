@@ -1,0 +1,127 @@
+:root {
+  --primary-color: #22343d;
+  --accent-color: #02897a;
+  --second-txt-cl: #173a56;
+  --secondary-color: #f4f4f4;
+  --bg-color: #ffffff;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* -------===== HEADER =====------ */
+
+.header {
+  padding: 22px 0;
+}
+.header-wrap {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+  margin-right: 237px;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 16px;
+  }
+}
+.header-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header-item {
+}
+.header-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--primary-color);
+  padding: 22px 0;
+}
+.current {
+  font-weight: 600;
+}
+.header-auth-list {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header-auth-item {
+}
+.header-auth-btn {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: var(--second-txt-cl);
+
+  border: 1px solid #bcd0e5;
+  background-color: transparent;
+  border-radius: 4px;
+  min-width: 105px;
+  padding: 9px 24px;
+  min-height: 42px;
+
+  transition: all 0.5s ease;
+}
+.header-auth-btn:hover,
+.header-auth-btn:focus {
+  background-color: #02897a;
+  border: 1px solid #02897a;
+  color: var(--bg-color);
+  box-shadow: 0px 10px 20px rgba(2, 137, 121, 0.207);
+}
+.sing-up {
+  background-color: #02897a;
+  border: 1px solid #02897a;
+  color: var(--bg-color);
+  box-shadow: 0px 10px 20px rgba(2, 137, 121, 0.207);
+}

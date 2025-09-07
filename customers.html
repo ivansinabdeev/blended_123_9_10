@@ -4,22 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Customers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html">Product</a>
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./customers.html">Customers</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href="./resources.html">Resources</a></li>
+    <header class="header">
+      <div class="container header-wrap">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo"
+            ><img src="./images/logo.png" alt="logo" /> Product</a
+          >
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="./index.html">Product</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link current" href="./customers.html"
+                >Customers</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="./resources.html">Resources</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-auth-list">
+          <li class="header-auth-item">
+            <button class="header-auth-btn" type="button">Sign In</button>
+          </li>
+          <li class="header-auth-item">
+            <button class="header-auth-btn" type="button">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+      </div>
     </header>
     <h1>This is Customers page</h1>
   </body>
